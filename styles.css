@@ -7,6 +7,10 @@ body {
   display: flex;
 }
 
+img {
+	width: 60px;
+}
+
 .flex-container {
   display: flex;
   align-items: center;
