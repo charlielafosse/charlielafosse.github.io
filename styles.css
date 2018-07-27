@@ -1,39 +1,83 @@
-h1 {
-	color: orange;
+body {
+  background-color: #fffdd0;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-h3 {
-	background-color: green;
+.makeFlex{
+  display: flex;
 }
 
-.makeFlex {
-    display: flex;
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #91989F;
+  margin: 20px 260px;
+  border-radius: 3;
+  padding: 40px;
 }
 
 .flexItem {
     flex: 1;
 }
 
-.left {
+.navLeft {
     justify-content: flex-start;
 }
 
-.right {
+.navRight {
     justify-content: flex-end;
 }
 
 .navBar {
-    background-color: #4AB7D8;
-    border-radius: 50;
+    background-color: #656765;
+    border-radius: 3;
 }
 
 .nav {
     list-style: none;
 }
 
+li{
+  list-style-type: none;
+}
+
 .nav a {
     text-decoration: none;
     display: block;
     padding: 0 1em;
-    color: white;
+    color: #fffdd0;
+}
+
+.left {
+  order: 1;
+  text-align: center;
+  width: 20%;
+  background-color: green;
+}
+
+.centre {
+  order: 2;
+  text-align: center;
+  background-color: red;
+  padding: 20px;
+}
+
+.intContainer {
+  width: 60%;
+}
+
+p{
+  color: #fffdd0;
+}
+
+.right {
+  order: 3;
+  text-align: center;
+  width: 20%;
+  background-color: green;
+}
+
+.interesting {
+  
 }
