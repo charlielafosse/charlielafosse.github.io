@@ -1,18 +1,14 @@
 body {
   background-color: #fffdd0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.fa-10x{
+.fa-10x {
   align-self: center;
   color: black;
 }
 
-.makeFlex{
-  display: flex;
-}
-
-#topCont{
+#topCont {
   margin: 70px 260px 20px 260px;
 }
 
@@ -20,49 +16,44 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #91989F;
+  background-color: #91989f;
   margin: 20px 260px;
   border-radius: 3;
   padding: 40px;
 }
 
-.flexItem {
-    flex: 1;
-}
-
 .navLeft {
-    justify-content: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  list-style: none;
 }
 
 .navRight {
-    justify-content: flex-end;
+  justify-content: flex-end;
+  display: flex;
 }
 
 .navBar {
-    background-color: #656765;
-    border-radius: 3;
-    position: fixed;
+  background-color: #656765;
+  border-radius: 3;
+  position: fixed;
   padding-bottom: 5px;
   width: 100%;
   height: 40px;
   z-index: 3;
   top: 0;
+  display: flex;
 }
 
-
-.nav {
-    list-style: none;
-}
-
-li{
+li {
   list-style-type: none;
 }
 
-.nav a {
-    text-decoration: none;
-    display: block;
-    padding: 0 1em;
-    color: #fffdd0;
+.navBar a {
+  text-decoration: none;
+  display: block;
+  padding: 0 1em;
+  color: #fffdd0;
 }
 
 .left {
@@ -79,7 +70,7 @@ li{
   padding: 20px;
 }
 
-p{
+p {
   color: #fffdd0;
   text-align: center;
   padding-top: 20px;
@@ -92,6 +83,46 @@ p{
   background-color: green;
 }
 
-#project{
+#project {
   text-align: center;
+}
+
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+  width: 500px;
+  height: 280px;
+  text-align: center;
+}
+
+.flipper {
+  transition: 0.8s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.back {
+  transform: rotateY(180deg);
 }

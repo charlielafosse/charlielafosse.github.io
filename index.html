@@ -2,56 +2,69 @@
 <html>
 
 <head>
-  <title>Git demo</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>F&C Page</title>
+  <link type="text/css" href="styles/index.scss">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <script type="text/javascript" src="myJS.js"></script>
+  <script type="text/javascript" src="scripts/index.js"></script>
 </head>
 
 <body>
-    <nav class="makeFlex navBar">
-      <ul class="nav flexItem navLeft">
-        <li><a href="#">charlie la fosse</a></li>
-      </ul>
-      <ul class="nav makeFlex navRight">
-        <li><a href="#">github repo</a></li>
-        <li><a href="#">free code camp</a></li>
-        <li><a href="#">codewars</a></li>
-        <li><a href="#">projects</a></li>
-      </ul>
-    </nav>
-    <div class = "flex-container">
-      <div class = "interesting">
-        <p>Something interesting about me</p></br>
-        <p>I've just returned from China, working as an oral English teacher in a middle school.</p>
+  <nav class="navBar">
+    <ul class="flexItem navLeft">
+      <li><a href="#">charlie la fosse</a></li>
+    </ul>
+    <ul class="navRight">
+      <li><a href="#githubrepo">github repo</a></li>
+      <li><a href="#fcc">free code camp</a></li>
+      <li><a href="#cw">codewars</a></li>
+      <li><a href="#project">projects</a></li>
+    </ul>
+  </nav>
+  <div id="topCont" class="flex-container">
+    <div id="toFlip" class="flip-container flip">
+      <div class="flipper">
+        <div class="front">
+          <p>About Me</p>
+          <i class="fas fa-user-astronaut fa-10x"></i>
+        </div>
+        <div class="back">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie neque et sem condimentum blandit. Ut eu felis non diam malesuada hendrerit rhoncus at ante. Donec nec iaculis justo. Maecenas pretium porta neque eget elementum. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent accumsan scelerisque risus ut placerat. Morbi tempor, elit et pharetra posuere, leo velit faucibus lacus, sed consectetur mauris ex et mi. Aenean finibus
+            augue in pharetra elementum. Vivamus porta, leo vitae malesuada ullamcorper, purus ex efficitur nibh, vel efficitur ligula tortor congue sem. Morbi consequat est nec ipsum laoreet suscipit. In vitae suscipit ligula. Maecenas pellentesque pulvinar
+            massa sed convallis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer feugiat erat non tellus bibendum, et maximus magna porttitor. </p>
+        </div>
       </div>
     </div>
-  <div class = "flex-container">
-      <div id="githubrepo" class = "interesting">
-        <p>Github</p></br>
-    <a href="https://google.com"><i class="fab fa-github fa-10x"></i></a>
-      </div>
+  </div>
+  <div class="flex-container">
+    <div id="githubrepo" class="interesting">
+      <p>Github</p>
+      </br>
+      <a href="https://google.com"><i class="fab fa-github fa-10x"></i></a>
     </div>
-<div class = "flex-container">
-      <div id="cw" class = "interesting">
-        <p>Codewars</p></br>
-  <a href="https://google.com"><i class="fas fa-user-ninja fa-10x"></i></a>
-      </div>
+  </div>
+  <div class="flex-container">
+    <div id="cw" class="interesting">
+      <p>Codewars</p>
+      </br>
+      <a href="https://google.com"><i class="fas fa-user-ninja fa-10x"></i></a>
     </div>
-<div class = "flex-container">
-      <div id="fcc" class = "interesting">
-        <p>freeCodeCamp</p></br>
-  <a href="https://google.com"><i class="fab fa-free-code-camp fa-10x"></i></a>
-      </div>
+  </div>
+  <div class="flex-container">
+    <div id="fcc" class="interesting">
+      <p>freeCodeCamp</p>
+      </br>
+      <a href="https://google.com"><i class="fab fa-free-code-camp fa-10x"></i></a>
     </div>
-<div class = "flex-container">
-      <div id="project" class = "interesting">
-        <p>prunus mume: unexpected music</p>
-  <a href="https://google.com"><i class="fab fa-codepen fa-10x"></i></a>
-        <p>A simple music app I created, using the Youtube API!</p>
-      </div>
+  </div>
+  <div class="flex-container">
+    <div id="project" class="interesting">
+      <p>prunus mume: unexpected music</p>
+      <a href="https://google.com"><i class="fab fa-codepen fa-10x"></i></a>
+      <p>A simple music app I created, using the Youtube API!</p>
     </div>
+  </div>
 </body>
 
 </html>

@@ -1,1 +1,1 @@
-alert("hello!");
+document.querySelector("#toFlip").classList.toggle("flip");
