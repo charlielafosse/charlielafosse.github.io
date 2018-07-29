@@ -141,3 +141,7 @@ p {
 .hoverColor:hover {
   color: blue;
 }
+
+.imgContainer {
+	margin: 0 0;
+}
