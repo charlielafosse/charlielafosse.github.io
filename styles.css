@@ -12,6 +12,10 @@ body {
   margin: 70px 260px 20px 260px;
 }
 
+.smallText{
+	font-size: 0.8em;
+}
+
 .flex-container {
   display: flex;
   align-items: center;
