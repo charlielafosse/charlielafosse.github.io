@@ -63,7 +63,7 @@ li {
 
 .navBar a {
   text-decoration: none;
-  display: block;
+  /*display: block;*/
   padding: 0 1em;
   color: #fffdd0;
 }
