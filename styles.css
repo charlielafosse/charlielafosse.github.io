@@ -149,3 +149,13 @@ p {
 	margin-left: -100px;
 	margin-right: -100px;
 }
+
+.expand:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
