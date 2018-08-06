@@ -8,13 +8,6 @@ body {
   color: black;
 }
 
-img{
-	margin-left: 20px;
-	margin-right: 20px;
-	width: 200px;
-	border-radius: 3;
-}
-
 #topCont {
   margin: 70px 260px 20px 260px;
   padding-bottom: 100px;
@@ -145,13 +138,6 @@ p {
   color: blue;
 }
 
-
-/*.imgContainer {
-	display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}*/
-
 .column {
 	display: flex;
     flex-flow: row wrap;
@@ -165,16 +151,11 @@ p {
 }
 
 .column img {
-  width: 100%;
+  /*width: 100%;*/
     height: auto;
+    /*margin-left: 20px;
+	margin-right: 20px;*/
+	width: 180px;
+	border-radius: 3;
+	text-align: center;
 }
-
-/*.expand:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width: 350px;
-    height:auto;
-    /*display:block;
-    z-index:999;
-}*/*/*/*/
