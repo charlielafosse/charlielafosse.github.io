@@ -1,5 +1,5 @@
 body {
-  background-color: #fffdd0;
+  background-color: white;
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -93,7 +93,9 @@ p {
   text-align: center;
 }
 
-
+.flexIcon {
+	flex: 2 2;
+}
 
 .flip-container {
   perspective: 1000px;
