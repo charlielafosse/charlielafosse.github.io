@@ -3,12 +3,6 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-@media (max-width: 100px) {
-	.flexIcon {
-		width: 30px;
-	}
-}
-
 .fa-10x {
   align-self: center;
   color: black;
@@ -104,10 +98,6 @@ p {
 	margin-top: 15px;
 }
 
-.flexIcon {
-	flex: 2 2;
-}
-
 .flip-container {
   perspective: 1000px;
 }
@@ -166,11 +156,8 @@ p {
 }
 
 .column img {
-  /*width: 100%;*/
     height: auto;
-    /*margin-left: 20px;
-	margin-right: 20px;*/
-	width: 190px;
+	width: 100%;
 	border-radius: 3;
 	text-align: center;
 }
