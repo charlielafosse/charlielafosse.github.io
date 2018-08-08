@@ -4,15 +4,15 @@ body {
 }
 
 
-.fa-10x {
+.flexItem a i {
   align-self: center;
   color: black;
-  font-size: 4em;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 600px) {
-	.fa-10x {
-		font-size: 2em;
+	.flexItem a i {
+		font-size: 10px;
 	}
 }
 
