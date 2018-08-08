@@ -28,9 +28,9 @@ body {
   align-content: space-between;
 }
 
-.flexItem {
+/*.flexItem {
 	display: flex;
-}
+}*/
 
 .navLeft {
   justify-content: flex-start;
@@ -133,7 +133,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
+  /*display: flex;*/
 }
 
 .front {
