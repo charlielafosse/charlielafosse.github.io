@@ -26,6 +26,7 @@ body {
   border-radius: 3;
   padding: 40px;
   align-content: space-between;
+  flex-shrink: 1;
 }
 
 .navLeft {
