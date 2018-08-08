@@ -28,8 +28,9 @@ body {
   align-content: space-between;
 }
 
-.flexItem {
-	flex: 1 1 0;
+
+.flexItem a {
+	min-width: 0;
 }
 
 .navLeft {
