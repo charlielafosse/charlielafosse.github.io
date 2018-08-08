@@ -26,7 +26,10 @@ body {
   border-radius: 3;
   padding: 40px;
   align-content: space-between;
-  flex-shrink: 1;
+}
+
+.flexItem {
+	display: flex;
 }
 
 .navLeft {
@@ -130,6 +133,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
 }
 
 .front {
