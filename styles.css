@@ -3,19 +3,16 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-#mediaTest {
-	color: blue;
-}
-
-@media screen and (max-width: 600px) {
-	#mediaTest {
-		color: black;
-	}
-}
 
 .fa-10x {
   align-self: center;
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+	.fa-10x {
+		width: 20px;
+	}
 }
 
 #topCont {
