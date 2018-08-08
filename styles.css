@@ -3,6 +3,11 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.flexItem a i {
+	height: auto;
+	width: 100%;
+}
+
 .fa-10x {
   align-self: center;
   color: black;
@@ -156,7 +161,10 @@ p {
 }
 
 .column img {
+  /*width: 100%;*/
     height: auto;
+    /*margin-left: 20px;
+	margin-right: 20px;*/
 	width: 100%;
 	border-radius: 3;
 	text-align: center;
