@@ -11,7 +11,7 @@ body {
 
 @media screen and (max-width: 600px) {
 	.fa-10x {
-		width: 20px;
+		font-size: 2em;
 	}
 }
 
