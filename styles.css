@@ -3,6 +3,12 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
+@media (max-width: 100px) {
+	.flexIcon {
+		width: 30px;
+	}
+}
+
 .fa-10x {
   align-self: center;
   color: black;
@@ -28,10 +34,6 @@ body {
   align-content: space-between;
 }
 
-
-.flexItem a {
-	min-width: 0;
-}
 
 .navLeft {
   justify-content: flex-start;
