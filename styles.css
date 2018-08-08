@@ -4,8 +4,8 @@ body {
 }
 
 @media (max-width: 600px) {
-	.flexItem a i {
-		width: 50px;
+	p {
+		color: green;
 	}
 }
 
