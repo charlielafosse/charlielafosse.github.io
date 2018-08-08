@@ -3,9 +3,10 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.flexItem a i {
-	height: auto;
-	width: 100%;
+@media (max-width: 600px) {
+	.flexItem a i {
+		width: 50px;
+	}
 }
 
 .fa-10x {
