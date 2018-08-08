@@ -93,6 +93,10 @@ p {
   text-align: center;
 }
 
+#smallPic {
+	margin-top: 15px;
+}
+
 .flexIcon {
 	flex: 2 2;
 }
@@ -134,6 +138,7 @@ p {
 
 .back {
   transform: rotateY(180deg);
+  margin-top: 20px;
 }
 
 .hoverColor:hover {
