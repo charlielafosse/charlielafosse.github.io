@@ -7,6 +7,7 @@ body {
 .fa-10x {
   align-self: center;
   color: black;
+  font-size: 4em;
 }
 
 @media screen and (max-width: 600px) {
