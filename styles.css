@@ -9,7 +9,7 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 915px) {
 	.flexItem a i {
 		font-size: 10px;
 	}
