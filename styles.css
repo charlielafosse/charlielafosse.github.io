@@ -9,11 +9,11 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 915px) {
+/*@media screen and (max-width: 915px) {
 	.flexItem a i {
 		font-size: 10px;
 	}
-}
+}*/
 
 #topCont {
   margin: 70px 260px 20px 260px;
