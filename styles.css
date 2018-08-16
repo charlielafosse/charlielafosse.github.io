@@ -9,17 +9,6 @@ body {
   color: black;
 }
 
-@media screen and (max-width: 940px) {
-  .flexItem a {
-    font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 710px) {
-  .flexItem a {
-    font-size: 6px;
-  }
-}
 
 #topCont {
   margin: 70px 260px 20px 260px;
@@ -176,4 +165,22 @@ p {
 	width: 180px;
 	border-radius: 3;
 	text-align: center;
+}
+
+@media screen and (max-width: 940px) {
+  .flexItem a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .flexItem a {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .navLeft a, .navRight a {
+    font-size: 12px;
+  }
 }
