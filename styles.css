@@ -198,7 +198,7 @@ color: #6d9eed;
   }
 }
 
-@media screen and (max-width: 843px) {
+@media screen and (max-width: 849px) {
   .smallText {
     font-size: 60%;
   }
