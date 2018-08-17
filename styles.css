@@ -141,8 +141,12 @@ p {
   margin-top: 20px;
 }
 
-.hoverColor:hover {
+.hoverBlue:hover {
   color: blue;
+}
+
+.hoverLightBlue:hover {
+color: #6d9eed;
 }
 
 .column {
