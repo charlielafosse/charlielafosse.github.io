@@ -158,13 +158,16 @@ p {
 }
 
 .column img {
-  /*width: 100%;*/
     height: auto;
-    /*margin-left: 20px;
-	margin-right: 20px;*/
 	width: 180px;
 	border-radius: 3;
 	text-align: center;
+}
+
+@media screen and (max-width: 980px) {
+  .column img {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 940px) {
