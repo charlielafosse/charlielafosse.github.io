@@ -164,7 +164,7 @@ p {
 	text-align: center;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 941px) {
   .column img {
     width: 70%;
   }
@@ -194,7 +194,7 @@ p {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 843px) {
   .smallText {
     font-size: 60%;
   }
