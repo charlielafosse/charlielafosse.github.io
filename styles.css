@@ -185,8 +185,14 @@ p {
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 980px) {
   .smallText {
     font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .smallText {
+    font-size: 60%;
   }
 }
