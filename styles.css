@@ -218,7 +218,7 @@ color: #6d9eed;
 }
 
 @media screen and (max-width: 767px) {
-  #topCont {
+  .smallText {
     display: none;
   }
 }
